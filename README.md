@@ -33,17 +33,17 @@ The reproducibility bundle was prepared with these names:
 | File | What it contains |
 |---|---|
 | `ISOM3540_21089310_ass3.pdf` | Typed Question 5 submission with three figures |
-| `ISOM3540_21089310_ass3.tex` | Editable LaTeX source |
+| [ISOM3540_21089310_ass3.tex](ISOM3540_21089310_ass3.tex) | Editable LaTeX source (published) |
 | `ISOM3540_21089310_ass3_Excel.xlsx` | Excel inputs, formulas, test statistics, and three editable charts |
-| `analysis.csv` | Daily 2021–2025 returns, volatility and VaR series |
-| `all_closes.csv` | Closing prices including the 2020 initialization period |
+| [analysis.csv](analysis.csv) | Complete daily 2021–2025 returns, volatility and VaR series (published) |
+| [all_closes.csv](all_closes.csv) | Closing prices including the 2020 initialization period (published) |
 | `figure_1_ewma_variance.png` | Time series of RiskMetrics variance |
 | `figure_2_var_5pct.png` | Realized returns against 5% VaR thresholds |
 | `figure_3_var_1pct.png` | Realized returns against 1% VaR thresholds |
 | `ISOM3540_21089310_ass3_Source_Bundle.zip` | Complete reproducibility archive |
 | [`README_SOURCES.txt`](README_SOURCES.txt) | Source citations and verification notes |
 
-**Repository publication status:** the `README_SOURCES.txt` text is present in this repository. The other named binary/data files are listed for reproducibility and may need to be uploaded separately; file names in this table are **not claims that those files are already hosted here**. The companion materials can be obtained from the completed ChatGPT deliverable bundle until this repository's binary uploads are confirmed.
+**Repository publication status:** Verified on the main branch: this README, [source notes](README_SOURCES.txt), [LaTeX source](ISOM3540_21089310_ass3.tex), [daily VaR calculations](analysis.csv), [daily closing prices](all_closes.csv), and [backtest summary](backtest_summary.csv). **Pending separate binary upload:** the PDF, Excel workbook, PNG figures and complete ZIP; the listed names are not claims that these binary files have been published. They are included in the downloadable ChatGPT source bundle.
 
 ## Data provenance
 
