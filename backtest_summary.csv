@@ -1,0 +1,5 @@
+model,tail_probability,observations,exceptions,observed_breach_rate,kupiec_p_value
+normal,0.05,1255,74,0.05896414342629482,0.1559922
+normal,0.01,1255,26,0.02071713147410359,0.00085325
+standardized_student_t_df5,0.05,1255,81,0.06454183266932271,0.0234094
+standardized_student_t_df5,0.01,1255,19,0.015139442231075697,0.0889741
