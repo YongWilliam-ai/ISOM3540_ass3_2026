@@ -33,3 +33,14 @@ Normal 5% and 1% breaches: 74, 26.
 Standardized-t 5% and 1% breaches: 81, 19.
 Normal 5% and 1% Kupiec coverage p-values: .1559922, .00085325.
 Standardized-t 5% and 1% Kupiec coverage p-values: .0234094, .0889741.
+
+
+GITHUB REPOSITORY AND CLICKABLE REFERENCES
+Repository: https://github.com/YongWilliam-ai/ISOM3540_ass3_2026
+Source notes: https://github.com/YongWilliam-ai/ISOM3540_ass3_2026/blob/main/README_SOURCES.txt
+Submission PDF includes clickable FRED links and a repository reference.
+
+REPOSITORY PUBLICATION CAVEAT
+A local, complete source ZIP and Excel workbook accompany the submission.
+The existence of these local artifacts does not by itself confirm a GitHub upload.
+Only files visible on GitHub's main branch can be treated as publicly published.
