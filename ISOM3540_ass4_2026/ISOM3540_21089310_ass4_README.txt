@@ -1,0 +1,45 @@
+ISOM 3540 — Problem Sheet 4, Question 5
+Student ID: 21089310
+Assignment deadline: 16 November 2026 (as printed on the assignment)
+
+COURSE SUBMISSION
+Upload ONLY: ISOM3540_21089310_ass4.pdf
+It is a typed, 2-page A4 solution to Question 5(a)-(d).
+
+COMPANION MATERIALS (not separately required by the problem sheet)
+- ISOM3540_21089310_ass4.tex : editable LaTeX source
+- ISOM3540_21089310_ass4_Excel_Convergence.png : rendered and cropped image of the native Excel simulation chart
+- ISOM3540_21089310_ass4_MonteCarlo.xlsx : spreadsheet containing:
+    Parameters / Conditional_Lookup / MC_Histogram / Convergence / Method_and_Audit
+  The Convergence sheet contains an editable native Excel line chart.
+- reproduce_mc_ass4.py : independent computation and replication of the random simulation
+
+NUMERICAL RESULTS (full precision)
+P(12 <= Y <= 18) from Y ~ Bin(100,0.15): 0.6736884055730772
+P(12 <= Y <= 18) from E[P(event|X)]:     0.6736884055730776
+Monte Carlo: M=40000, NumPy default_rng seed=35402026
+Monte Carlo estimate:                       0.6732952451093732
+Estimated Monte Carlo standard error:      0.0003076819780191
+95% Monte Carlo CI:                        [0.6726921884, 0.6738983018]
+P(40<=X<=60, 12<=Y<=18):                0.6574724967879793
+P(40<=X<=60 | 12<=Y<=18):              0.9759296602836675
+
+THREE INDEPENDENT VERIFICATION ROUTES
+(1) Exact probability: binomial thinning equals the finite law-of-total-probability sum.
+(2) Conditional probability: restricted joint-binomial sum matches the
+    alternative distribution X|Y=y = y + Bin(100-y,7/17).
+(3) Monte Carlo: spreadsheet formula results match the independent NumPy/SciPy
+    calculations to approximately 1e-10, and the exact probability is inside
+    the displayed Monte Carlo simulation interval.
+
+TECHNICAL VALIDATION
+- All five worksheets present in the xlsx; one native editable Excel chart.
+- XLSX cached formula results inspected and no formula-error cells found.
+- PDF compiled with pdflatex and visually rendered; two A4 pages.
+- No overflow/overfull LaTeX layout warnings.
+- To rebuild the PDF, keep the .tex and the .png in the same folder
+  and run: pdflatex ISOM3540_21089310_ass4.tex
+
+SOURCE
+The supplied ISOM3540 Problem Sheet 4 (Fall 2026), Question 5.
+No external data sources required.
