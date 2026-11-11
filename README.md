@@ -1,5 +1,8 @@
 # ISOM 3540 — Assignment 3, Question 5 (Fall 2026)
 
+> **Assignment 4:** [ISOM3540_ass4_2026/](ISOM3540_ass4_2026/README.md) — [submission PDF](ISOM3540_ass4_2026/ISOM3540_21089310_ass4.pdf), [Excel Monte Carlo workbook](ISOM3540_ass4_2026/ISOM3540_21089310_ass4_MonteCarlo.xlsx), [complete ZIP](ISOM3540_ass4_2026/ISOM3540_21089310_ass4_Complete_Package.zip). Assignment 3 files below remain unchanged.
+
+
 **HKUST · Introduction to Probability**  
 **Student ID:** 21089310  
 **Assignment due:** 30 October 2026
